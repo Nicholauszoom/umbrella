@@ -7,7 +7,7 @@ import org.springframework.web.servlet.ModelAndView;
 
 @Controller
 public class PageMappController {
-    @RequestMapping("")
+    @RequestMapping("/")
     public ModelAndView getLogin() {
         return new ModelAndView("abouts");
     }
